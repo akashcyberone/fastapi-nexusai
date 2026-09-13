@@ -41,7 +41,7 @@ SMTP_PASSWORD    = os.getenv("SMTP_PASSWORD",    "").strip()
 SENDER_EMAIL     = os.getenv("SENDER_EMAIL",     SMTP_USER).strip()
 
 # ── FRONTEND & CORS CONFIG ────────────────────────────────
-FRONTEND_URL     = os.getenv("FRONTEND_URL",      "http://127.0.0.1:5500").strip().rstrip("/")
+FRONTEND_URL     = os.getenv("FRONTEND_URL",      "https://nesuxai.netlify.app").strip().rstrip("/")
 raw_origins      = os.getenv("ALLOWED_ORIGINS",   "*")
 ALLOWED_ORIGINS  = [origin.strip() for origin in raw_origins.split(",") if origin.strip()]
 
