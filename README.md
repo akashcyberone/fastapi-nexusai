@@ -4,7 +4,7 @@
 
 The application supports multiple AI providers, allowing users to interact with different AI models through a single chatbot interface.
 
----------------
+-------------------------
 
 ## ✨ Features
 
@@ -21,7 +21,7 @@ The application supports multiple AI providers, allowing users to interact with 
 * 📱 Responsive web interface
 * 🚨 Provider-specific error handling
 
---------------------------
+-----------------------------
 
 ## 🧠 AI Providers
 
@@ -41,7 +41,7 @@ Used for AI-powered responses through the OpenAI API.
 
 The backend routes requests to the selected provider based on the model selected by the user.
 
----
+-------------------
 
 ## 🛠️ Tech Stack
 
